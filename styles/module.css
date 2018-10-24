@@ -1,0 +1,143 @@
+/* 1.公用样式 (所有页面都可以使用的样式)*/
+/* 版心:
+    作用:
+        设置主要内容的宽度,并且水平居中
+
+    注意:
+        所有样式都不要从版心上过(项目使用层级选择器)
+
+    如:
+        #header .wrapper div{}   错误写法
+        #header div{} 正确写法
+*/
+.wrapper{
+    width:1200px;
+    margin:0 auto;
+}
+
+/* 设置浮动和清除浮动 */
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+/* 清除浮动 */
+.clear{
+    clear:both;
+}
+.clearFloat:after{
+    height:0;
+    content:'';
+    display: block;
+    clear:both;
+}
+.floatLi li{
+    float:left;
+}
+/*下边线*/
+.af:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 4px;
+    bottom: 0;
+}
+/*内容页bannear图*/
+.content_banner{
+    background: url("../images/banner5.jpg")no-repeat;
+    height: 310px;
+}
+/*面包屑*/
+.menu{
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 14px;
+}
+/*左标题*/
+.title{
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+}
+.title:after{
+    width: 54px;
+    background: #15bded;
+}
+.title span:nth-of-type(1){
+    font-size: 28px;
+    color:#252525;
+}
+/*回到顶部按钮*/
+.jian{
+    background: url("../images/huidao1.png")no-repeat;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    transition: all 0.5s linear;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.jian:hover{
+    background: url("../images/huidao.png")no-repeat;
+}
+
+/*左侧分类*/
+.classFiy{
+    margin:30px 0 20px  0;
+}
+.classFiyLeft{
+    width: 260px;
+    margin-right: 30px;
+}
+.classFiyLeft ul li{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.classFiyLeft ul li a{
+    display: block;
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    color: #252525;
+    font-size: 14px;
+    background: #f2f2f2;
+    transition: all 0.3s linear;
+}
+.classFiyLeft ul li a:hover{
+    background:#e8d498;
+}
+.classFiyLeft img{
+    width: 100%;
+    margin-top: 24px;
+}
+.classFiyRight {
+    width: 910px;
+}
+/*选中产品分类*/
+ .pitch{
+    background:#e8d498 !important;
+ }
+/*选中新闻分类*/
+.pitch1{
+    background: #bcbfc6 !important;
+}
+ /*分页样式*/
+ .page{
+     text-align: center;
+     margin: 50px auto;
+ }
+ .page a{
+     border: 1px solid #a5a5b1;
+     padding: 2px 6px;
+ }
+.page .thisPage{
+     border: none;
+    color: #e5493a;
+ }

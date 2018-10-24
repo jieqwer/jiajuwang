@@ -1,0 +1,118 @@
+/*页脚*/
+.footer{
+    background: #141414;
+    padding: 0 0 30px 0;
+}
+.footLeft{
+    width: 350px;
+}
+.footLeft img{
+    margin: 50px 0;
+}
+.footLeft p{
+    color:#818388;
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 16px;
+    line-height: 30px;
+    width: 100%;
+}
+.footLeft p i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px 0;
+}
+.footLeft p:nth-of-type(1) i{
+    background: url("../images/icon.jpg")no-repeat;
+}
+.footLeft p:nth-of-type(2) i{
+    background: url("../images/icon.jpg")no-repeat 0 -40px;
+}
+.footLeft p:nth-of-type(3) i{
+    background: url("../images/icon.jpg")no-repeat 0 -80px;
+}
+.footLeft p span{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.footCenter{
+    width: 300px;
+    margin: 0 80px;
+}
+.link{
+    color: white;
+    font-size: 20px;
+    margin: 50px 0;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+.link:after{
+    width: 48px;
+    bottom: 0;
+    background: #2f7d62;
+}
+.footCenter ul li{
+    margin-bottom: 30px;
+}
+.footCenter ul li a{
+    display: block;
+    width: 150px;
+    font-size: 14px;
+    color:#818388;;
+}
+.footRight  form{
+    width: 320px;
+    height: 48px;
+    background: white;
+}
+.footRight  input{
+    border: none;
+    outline: none;
+    height: 48px;
+    color: white;
+}
+.footRight  input[type=text]{
+    width: 220px;
+    background: #333;
+}
+.footRight  input[type=submit]{
+    width: 100px;
+    background: #3aa27f;
+    cursor: pointer;
+}
+.attention{
+    font-size: 14px;
+    color:#818388;
+    margin-top: 46px;
+}
+.attention a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    font-weight:700;
+    line-height: 32px;
+    margin-right: 10px;
+}
+.attention a:nth-of-type(1){
+    width: 60px;
+}
+.attention a:nth-of-type(2){
+    background: url("../images/fenxiang.png")no-repeat;
+}
+.attention a:nth-of-type(3){
+    background: url("../images/fenxiang.png")no-repeat -42px 0;
+}
+.copyright{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: #818388;
+    font-size: 12px;
+    background:black ;
+}

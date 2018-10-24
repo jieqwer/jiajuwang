@@ -1,0 +1,39 @@
+.classFiyLeft ul li a,.classFiyLeft ul li{
+    height: 100px;
+    line-height: 100px;
+}
+.classFiyLeft ul li a:hover{
+    background: #bcbfc6;
+}
+.classFiyRight ul li {
+    width: 910px;
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+    transition: all 0.2s linear;
+}
+.classFiyRight ul li:hover {
+   background: rgba(199, 199, 199, 0.2);
+}
+.classFiyRight ul li a {
+    display: block;
+    width: 910px;
+}
+.classFiyRight ul li a span{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+}
+.classFiyRight ul li a span:nth-of-type(1) {
+    color: #606369;
+    font-weight: bold;
+}
+.classFiyRight ul li a span:nth-of-type(2) {
+    font-size: 12px;
+    color: #a5a5b1;
+}
+.classFiyRight ul li a span:nth-of-type(3) {
+    text-align: justify ;
+    color: #818388;
+}
+

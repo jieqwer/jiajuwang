@@ -1,0 +1,84 @@
+.classFiyRight{
+    padding: 0 100px 100px 0;
+    width: 810px;
+}
+.classFiyRight p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #3f3e45;
+}
+.classFiyRight form>label{
+    display: block;
+    line-height: 50px;
+    width: 100%;
+}
+.classFiyRight form>label i{
+    color: red;
+}
+.classFiyRight form>input:nth-of-type(1),.classFiyRight form>input:nth-of-type(2),.classFiyRight form>input:nth-of-type(3){
+    width: 100%;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    height: 40px;
+}
+.classFiyRight form p label{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background:#e2e2e2;
+    float: left;
+    margin: 15px 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+input[type=radio]:checked +label{
+    background:#4caf50 !important;
+}
+
+.classFiyRight form p label:after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 10px;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    transform: rotate(-45deg);
+}
+.classFiyRight form p span{
+    float: left;
+}
+.classFiyRight form p input{
+    display: none;
+    float: left;
+}
+.classFiyRight form textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 80px;
+    max-height: 200px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+}
+.classFiyRight form>input[type=submit]{
+    width: 100%;
+    line-height:40px;
+    background: #21bcd8;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.classFiyRight form>input[type=submit]:hover{
+    background: rgba(33, 188, 216, 0.8);
+}
+.classFiyRight form input:focus,.classFiyRight form textarea:focus{
+    border: 1px solid #21bcd8;
+}

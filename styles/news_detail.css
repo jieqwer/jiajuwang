@@ -1,0 +1,78 @@
+.classFiyRight{
+    box-sizing: border-box;
+    border: 1px solid #f2f2f2;
+    padding: 36px 20px;
+}
+.classFiyLeft ul li a,.classFiyLeft ul li{
+    height: 100px;
+    line-height: 100px;
+}
+.classFiyLeft ul li a:hover{
+    background: #bcbfc6;
+}
+.classFiyRight p:nth-of-type(1){
+    text-align: center;
+    color: #3f3e45;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 18px;
+}
+.classFiyRight p:nth-of-type(2){
+   color: #a5a5b1;
+    text-align: center;
+    line-height: 50px;
+}
+.classFiyRight p:nth-of-type(2) span{
+   margin-left: 10px;
+    float: left;
+}
+.classFiyRight p:nth-of-type(2) span:nth-of-type(1){
+    margin-left: 140px;
+}
+.classFiyRight p:nth-of-type(2) a{
+    width:16px;
+    height:16px;
+    float: left;
+    display: block;
+    margin-top: 16px;
+}
+.classFiyRight p:nth-of-type(2) a:nth-of-type(1){
+    background: url("../images/QQ.png")no-repeat;
+}
+.classFiyRight p:nth-of-type(2) a:nth-of-type(2){
+    background: url("../images/weibo.png")no-repeat;
+}
+.classFiyRight p:nth-of-type(2) a:nth-of-type(3){
+    background: url("../images/weixin.png")no-repeat;
+}
+.classFiyRight p:nth-of-type(3){
+    text-indent: 24px;
+    color: #818388;
+    font-size: 12px;
+    background: #f5f5f5;
+    padding:10px  36px;
+    line-height:24px;
+    text-align: justify;
+}
+.classFiyRight p:nth-of-type(4){
+    text-indent: 28px;
+    color: #252525;
+    font-size: 14px;
+    line-height:28px;
+    padding:16px 0;
+}
+.classFiyRight p:nth-of-type(5){
+    text-indent: 28px;
+    color: #606369;
+    font-size: 14px;
+    line-height:28px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+.classFiyRight p:nth-of-type(6),.classFiyRight p:nth-of-type(7){
+    color: #a5a5b1;
+}
+.classFiyRight p:nth-of-type(7){
+    margin: 10px 0 88px 0;
+}
+

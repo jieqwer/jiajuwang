@@ -1,0 +1,58 @@
+/*头部样式*/
+.headerTop{
+    background: #252525;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+}
+.headerTop div span:nth-of-type(2){
+    margin-left:20px;
+}
+/*导航栏*/
+.nav{
+    height: 100px;
+    background: white;
+}
+.nav>a{
+    display: block;
+    margin: 25px 0;
+}
+.nav ul li{
+    text-align: center;
+    line-height: 40px;
+    margin: 30px auto;
+    position: relative;
+}
+.nav ul li a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    color: #252525;
+}
+.nav ul li a:hover{
+    color: #252525;
+}
+.nav ul li a:after{
+    content: "";
+    width: 12px;
+    display: block;
+    border-bottom: 3px solid #15dbed;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+.current:before,.nav ul li a:hover:after{
+    content: "";
+    width: 56px;
+    display: block;
+    border-bottom: 3px solid #15dbed;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -28px;
+    opacity: 1;
+}

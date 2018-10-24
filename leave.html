@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>家居网-在线留言</title>
+    <!--设置网页图标-->
+    <link rel="icon" href="images/icon.ico">
+    <!--引入重置默认样式表-->
+    <link rel="stylesheet" href="styles/reset.css">
+    <!--引入公用样式-->
+    <link rel="stylesheet" href="styles/module.css">
+    <!--引入头部样式表-->
+    <link rel="stylesheet" href="styles/heard.css">
+    <!--引入页脚样式-->
+    <link rel="stylesheet" href="styles/footer.css">
+    <!--引入在线留言样式表-->
+    <link rel="stylesheet" href="styles/leave.css">
+</head>
+<body>
+<!--头部开始-->
+<div class="header">
+    <!--顶部-->
+    <div class="headerTop">
+        <div class="wrapper">
+            欢迎来到HOUSE家居网！
+            <div class="fr">
+                <span><img src="images/tel.png">400-00-000xxx</span>
+                <span><img src="images/mail.png">1234567xxx@gmail.com</span>
+            </div>
+        </div>
+    </div>
+    <!--导航栏-->
+    <div class="wrapper nav">
+        <a  class="fl" href="index.html"><img src="images/logo.png"></a>
+        <ul class="fr floatLi">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about_us.html">关于我们</a></li>
+            <li><a href="list.html">产品展示</a></li>
+            <li><a href="news.html">新闻动态</a></li>
+            <li><a class="current" href="leave.html">在线留言</a></li>
+            <li><a href="contact_us.html">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+<!--banner图-->
+<div class="content_banner"></div>
+<!--面包屑-->
+<div class="menu">
+    <div class="wrapper">
+        <a href="index.html">首页</a>
+        >>
+        <a >在线留言</a>
+    </div>
+</div>
+<!--产品展示列表-->
+<div class="wrapper">
+    <h2 class="title af">
+        <span>在线留言</span>
+    </h2>
+    <div class="classFiy clearFloat"> <!--清除浮动-->
+        <!--产品左侧分类-->
+        <div class="classFiyLeft fl">
+            <ul class="floatLi">
+                <li><a href="list.html">床上用品</a></li>
+                <li><a href="list.html">家居饰品</a></li>
+                <li><a href="list.html">居家日用</a></li>
+                <li><a href="list.html">家居收纳</a></li>
+                <li><a href="list.html">厨房收纳</a></li>
+                <li><a href="list.html">厨房餐饮</a></li>
+            </ul>
+            <img src="images/03_f0hi.jpg">
+        </div>
+        <!--右侧内容-->
+        <div class="classFiyRight fl">
+            <p>您可以留下您宝贵的意见，我们会在第一时间回复您，谢谢关注！</p>
+            <form action=""  method="post">
+                <label for="username">您的姓名<i>*</i></label>
+                <input type="text" name="username" id="username">
+                <label for="tel">您的电话<i>*</i></label>
+                <input type="tel" name="tel" id="tel">
+                <label for="email">您的邮箱<i>*</i></label>
+                <input type="email" name="email" id="email">
+                <label >咨询项目<i>*</i></label>
+                <p class="clearFloat">
+                    <input type="radio" name="class" id="class1"><label for="class1"></label><span>床上用品</span>
+                    <input type="radio" name="class" id="class2"><label for="class2"></label><span>家居饰品</span>
+                    <input type="radio" name="class" id="class3"><label for="class3"></label><span>居家日用</span>
+                    <input type="radio" name="class" id="class4"><label for="class4"></label><span>收纳用具</span>
+                    <input type="radio" name="class" id="class5"><label for="class5"></label><span>厨房收纳</span>
+                    <input type="radio" name="class" id="class6"><label for="class6"></label><span>厨房餐饮</span>
+                </p>
+                <label for="content">咨询内容<i>*</i></label>
+                <textarea id="content" name="content" placeholder="不给建议的用户和咸鱼有什么区别"></textarea>
+                <input type="submit" value="提交">
+            </form>
+        </div>
+    </div>
+</div>
+<!--页脚-->
+<div class="footer">
+    <div class="wrapper clearFloat">
+        <div class="footLeft fl">
+            <img src="images/logo2.jpg">
+            <p><i></i><span>中国上海市xxx区xxx路12号moumou大厦5层5xx室</span></p>
+            <p><i></i><span>400-000-xxxx   /  (021)-1234578xxx</span></p>
+            <p><i></i><span>12385963xxxx@gmail.com</span></p>
+        </div>
+        <div class="footCenter fl">
+            <h2 class="link af">
+                快速链接
+            </h2>
+            <ul class="floatLi clearFloat">
+                <li><a href="index.html">> 网站首页</a></li>
+                <li><a href="#">> 关于我们</a></li>
+                <li><a href="#">> 产品展示</a></li>
+                <li><a href="#">> 新闻动态</a></li>
+                <li><a href="#">> 在线留言</a></li>
+                <li><a href="#">> 联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footRight fl">
+            <h2 class="link af">
+                站内搜索
+            </h2>
+            <form action="" method="post">
+                <input class="fl" type="text" name="text" placeholder="请输入关键词">
+                <input class="fl"  type="submit" value="搜索" >
+            </form>
+            <div class="attention clearFloat">
+                <a>关注我们</a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright ? 2009-2011,www.xxxxxx.com,All rights reserved  沪ICP备XXXXXX号 未经同意，不得转载</div>
+</div>
+<!--回到顶部-->
+<div class="jian" id="toop"></div>
+<script src="scripts/jq.js"></script>
+<script src="scripts/back.js"></script>
+</body>
+</html>
