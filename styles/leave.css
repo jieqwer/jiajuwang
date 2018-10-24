@@ -21,6 +21,7 @@
     outline: none;
     border: 1px solid #e1e1e1;
     height: 40px;
+    text-indent: 10px;
 }
 .classFiyRight form p label{
     display: block;
@@ -64,6 +65,7 @@ input[type=radio]:checked +label{
     max-height: 200px;
     outline: none;
     border: 1px solid #e1e1e1;
+    text-indent: 10px;
 }
 .classFiyRight form>input[type=submit]{
     width: 100%;

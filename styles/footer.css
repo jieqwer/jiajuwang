@@ -79,6 +79,7 @@
 .footRight  input[type=text]{
     width: 220px;
     background: #333;
+    text-indent: 10px;
 }
 .footRight  input[type=submit]{
     width: 100px;
