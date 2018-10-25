@@ -56,3 +56,29 @@
     margin-left: -28px;
     opacity: 1;
 }
+.navSon{
+    width: 120px !important;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    transition: all 0.3s linear;
+}
+.nav ul>li:hover .navSon{
+    opacity: 1;
+    top:40px;
+}
+.navSon li{
+     width: 100%;
+     margin: 0 !important;
+     background: rgba(120, 119, 135, 0.4);
+     box-sizing: border-box;
+     border-bottom: 1px solid #fff;
+     Border-collapse: collapse;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    color: white;
+ }
+.navSon li:hover {
+    background: rgba(139, 132, 150, 0.8);
+}
