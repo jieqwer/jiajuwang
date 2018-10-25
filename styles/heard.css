@@ -82,3 +82,9 @@
 .navSon li:hover {
     background: rgba(139, 132, 150, 0.8);
 }
+
+@media screen and (max-width:1200px){
+    body{
+        width: 1200px;
+    }
+}
