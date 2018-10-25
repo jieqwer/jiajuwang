@@ -202,10 +202,10 @@
 
 
 .aboutUs{
-    background: url("../images/banner3.jpg") no-repeat;
+    background: url("../images/banner3.jpg") no-repeat center;
     height: 510px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 .aboutUs div:nth-of-type(1){
     width: 680px;
